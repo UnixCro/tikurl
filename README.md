@@ -26,7 +26,7 @@ iOS
 `App Store` -> `iSH Shell` -> Jetzt gib ein: 
 
 ```
-apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl` 
+apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl
 ```
 
 <br>
@@ -36,7 +36,7 @@ Android
 `Play Store` -> `Termux` -> Jetzt gib ein: 
 
 ```
-pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl` 
+pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl
 ```
 
 <br>
