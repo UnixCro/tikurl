@@ -31,4 +31,4 @@ macOS
 
 Öffne das Terminal -> `osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
 
-*Hinweis: Das Installationsprogramm wird dich nach einem Passwort fragen. Warum? Aufgrund der Sicherheit in macOS, man braucht höhere Rechte um etwas in /usr/local/bin zu schreiben. Das ist auch gut so. Packet-Manager wie HomeBrew ändern die Schreibrechte. Das Programm ändert überhaupt nichts, es schreibt nur ein neues Programm ins Verzeichnis rein*
+*Hinweis: Das Installationsprogramm wird dich nach einem Passwort fragen. Warum? Aufgrund der Sicherheit in macOS, man braucht höhere Rechte um etwas in /usr/local/bin zu schreiben. Das ist auch gut so. Packet-Manager wie HomeBrew ändern die Schreibrechte. Das Programm ändert überhaupt nichts, es schreibt nur ein neues Programm ins Verzeichnis rein.*
