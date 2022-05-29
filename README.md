@@ -14,6 +14,9 @@ Das schlimmste jedoch, wir können sogar sehen, `wer` diesen Link verbreitet hat
 Falls das Programm ungültige Eingabe, oder es Netzwerkverbindungsprobleme geben sollte, wird dieses Programm nichts ausfüllen.
 Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stammen, da iOS aufgrund seiner Sicherheit, viele dieser Dinge verhindert.
 
+Das Programm bemüht sich stehts, alle Informationen, wie möglich abzurufen. Erwarten Sie aber bitte nicht, dass das Programm zu jeder Zeit Informationen extrahiert. Der Inhalt basiert ganz allein auf TikTok selbst.
+Es ist jedoch sicherlich nicht schlecht, seinen Link zu überprüfen, bevor man ihn weiterschickt.
+
 Die URL endet oft mit `?k=1` am besten das entfernen um Lesefehler zu vermeiden.
 <br>
 
