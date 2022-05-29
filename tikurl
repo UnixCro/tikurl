@@ -1,0 +1,18 @@
+ANALYSE=$(curl --silent --output /dev/null 2>/dev/null $1 --write-out '%{redirect_url}')
+command || true
+tput setaf 162; echo "URL-Tiktok-Analyse by elmablo - Version 1.0"; tput sgr 0
+echo
+
+PUBLISHER=$(echo $ANALYSE |grep -v m.tiktok |grep -v video |grep -i tiktok |cut -d \@ -f 2 |cut -d \? -f 1)
+LANGUAGE=$(echo $ANALYSE |grep -i tiktok |cut -d \& -f 3|sed 's/language=//g;s/de/Deutsch/g')
+AUTHOR_ID=$(echo $ANALYSE |tr '&' '\n' |grep -i author |cut -d \= -f 2)
+DISTRIBUTOR=$(echo $ANALYSE |tr '=' '\n' |grep -i utm_campaign |cut -d \& -f 1)
+DEVICE=$(echo $ANALYSE |tr '&' '\n'  |grep -i utm_medium |cut -d \= -f 2|sed 's/android/Android/g;s/ios/iOS/g')
+SHARE=$(echo $ANALYSE |tr '&' '\n'  |grep -i utm_source |cut -d \= -f 2 |sed 's/whatsapp/WhatsApp/g; s/copy/Kopiert/g')
+echo
+
+echo "Veröffentlicher:" $(tput setaf 14) $PUBLISHER $(tput setaf 162; echo "(ID:") $AUTHOR_ID $(echo ")"; tput sgr 0) $(echo " -> tiktok.com/@" $PUBLISHER |sed 's/ //g;s/>/> /g'); tput sgr 0
+echo "Sprache:" $LANGUAGE
+echo "Verteiler:" $(tput setaf 162; echo "(ID:" ) $DISTRIBUTOR $(echo ")"; tput sgr 0) $(echo "Bitte gib es hier ein:"; tput setaf 2; echo "findidfb.com/find-tiktok-id"; tput sgr 0)
+echo "Verteilers Gerät:" $DEVICE
+echo "Wollte teilen über:" $SHARE
