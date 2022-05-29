@@ -29,5 +29,5 @@ Android
 
 macOS 
 
-Öffne das Terminal -> `osascript -e 'do shell script "sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
+Öffne das Terminal -> `osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
 
