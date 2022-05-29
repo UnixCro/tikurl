@@ -9,11 +9,12 @@ In diesem Programm werden wir den Link etwas genauer untersuchen:
 In dem Bild sehen wir Informationen über den `Autor und dessen ID` . Wir sehen sogar, welche `Sprache`er verwendet. 
 Das schlimmste jedoch, wir können sogar sehen, `wer` diesen Link verbreitet hat, über seine ID. Und welche Absicht er hatte, indem Fall über den `Dienst` Whatsapp sollte es geteilt werden auf einem Android `Gerät`.
 
-# Hinweis
+# Hinweise
 
 Falls das Programm ungültige Eingabe, oder es Netzwerkverbindungsprobleme geben sollte, wird dieses Programm nichts ausfüllen.
 Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stammen, da iOS aufgrund seiner Sicherheit, viele dieser Dinge verhindert.
 
+Die URL endet oft mit `?k=1` am besten das entfernen um Lesefehler zu vermeiden.
 <br>
 
 Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt. Falls Sie einen Fehler gefunden haben, melden Sie es hier bitte, um das Programm zu verbessern. 
@@ -22,18 +23,30 @@ Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt
 
 iOS 
 
-`App Store` -> `iSH Shell` -> Jetzt gib ein: `apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl` 
+`App Store` -> `iSH Shell` -> Jetzt gib ein: 
+
+```
+apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl` 
+```
 
 <br>
 
 Android 
 
-`Play Store` -> `Termux` -> Jetzt gib ein: `pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl` 
+`Play Store` -> `Termux` -> Jetzt gib ein: 
+
+```
+pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl` 
+```
 
 <br>
 
 macOS 
 
-Öffne das Terminal -> `osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
+Öffne das Terminal -> 
+
+```
+osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
+```
 
 *Hinweis: Das Installationsprogramm wird dich nach einem Passwort fragen. Warum? Aufgrund der Sicherheit in macOS, man braucht höhere Rechte um etwas in /usr/local/bin zu schreiben. Das ist auch gut so. Packet-Manager wie HomeBrew ändern die Schreibrechte. Das Programm ändert überhaupt nichts, es schreibt nur ein neues Programm ins Verzeichnis rein.*
