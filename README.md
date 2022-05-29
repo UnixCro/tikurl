@@ -16,7 +16,7 @@ Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stamme
 
 <br>
 
-Dieses Programm ist derzeit nur in Entwicklung, es ist lange noch nicht perfekt. Falls Sie einen Fehler gefunden haben, melden Sie es hier bitte, um das Programm zu verbessern. 
+Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt. Falls Sie einen Fehler gefunden haben, melden Sie es hier bitte, um das Programm zu verbessern. 
 
 # Installation
 
