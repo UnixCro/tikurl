@@ -19,7 +19,7 @@ Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stamme
 
 iOS 
 
-`App Store` -> `iSH Shell` -> Jetzt gib ein: `apk add ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl` 
+`App Store` -> `iSH Shell` -> Jetzt gib ein: `apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl` 
 
 <br>
 
