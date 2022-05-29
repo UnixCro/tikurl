@@ -27,6 +27,8 @@ Android
 
 `Play Store` -> `Termux` -> Jetzt gib ein: `pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl` 
 
+<br>
+
 macOS 
 
 Öffne das Terminal -> `osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
