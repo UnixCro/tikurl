@@ -19,15 +19,15 @@ Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stamme
 
 iOS 
 
-`App Store` -> `iSH Shell` -> Jetzt gib ein: `curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl` 
+`App Store` -> `iSH Shell` -> Jetzt gib ein: `curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl` 
 
 <br>
 
 Android 
 
-`Play Store` -> `Termux` -> Jetzt gib ein: `curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl` 
+`Play Store` -> `Termux` -> Jetzt gib ein: `curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl` 
 
 macOS 
 
-Öffne das Terminal -> `osascript -e 'do shell script "sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl" with administrator privileges'`
+Öffne das Terminal -> `osascript -e 'do shell script "sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'`
 
