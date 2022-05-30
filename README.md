@@ -26,7 +26,7 @@ Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt
 
 iOS 
 
-`App Store` -> `iSH Shell` -> Jetzt gib ein: 
+`App Store` -> `iSH Shell` -> Jetzt füg ein: 
 
 ```
 apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/bin/tikurl && chmod +x /usr/bin/tikurl
@@ -36,7 +36,7 @@ apk add ncurses curl; curl --url https://raw.githubusercontent.com/UnixCro/tikur
 
 Android 
 
-`Play Store` -> `Termux` -> Jetzt gib ein: 
+`Play Store` -> `Termux` -> Jetzt füg ein: 
 
 ```
 pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o $PATH/tikurl && chmod +x $PATH/tikurl
@@ -46,7 +46,7 @@ pkg install ncurses; curl --url https://raw.githubusercontent.com/UnixCro/tikurl
 
 macOS 
 
-Öffne das Terminal -> 
+Öffne das Terminal -> Jetzt füg ein:
 
 ```
 osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/curl --url https://raw.githubusercontent.com/UnixCro/tikurl/main/tikurl -o /usr/local/bin/tikurl && chmod +x /usr/local/bin/tikurl" with administrator privileges'
