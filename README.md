@@ -51,4 +51,4 @@ Das Programm bemüht sich stehts, alle Informationen, wie möglich abzurufen. Er
 
 Es ist jedoch sicherlich nicht schlecht, seinen Link zu überprüfen, bevor man ihn weiterschickt.
 
-Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt. Falls Sie einen Fehler gefunden haben, melden Sie es hier bitte, um das Programm zu verbessern. 
+Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt. Falls Sie einen Fehler gefunden haben, melden Sie es [hier](https://github.com/UnixCro/tikurl/issues) bitte, um das Programm zu verbessern. 
