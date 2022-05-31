@@ -1,23 +1,23 @@
 # tikurl
 
-Kennt ihr diese `https://vm.tiktok.com/?????????/` Links, man weiß gar nicht, was es mit sich auf sich hat.
+Kennt ihr diese `https://vm.tiktok.com/?????????/` Links, man weiß gar nicht, womit es sich auf sich hat ... 
 
-In diesem Programm werden wir den Link etwas genauer untersuchen: 
+In diesem Programm werden wir den Link etwas genauer untersuchen. Hier ist ein Screenshot davon: 
 
 <img width="885" alt="Bildschirmfoto 2022-05-29 um 09 32 42" src="https://user-images.githubusercontent.com/70098046/170857355-c5930a28-5c82-4c9d-9bf1-37d2d754b52f.png">
 
-In dem Bild sehen wir Informationen über den `Autor und dessen ID` . Wir sehen sogar, welche `Sprache`er verwendet. 
+In dem Bild sehen wir Informationen über den `Autor und dessen ID` . Wir sehen sogar, welche `Sprache` er verwendet. 
 Das schlimmste jedoch, wir können sogar sehen, `wer` diesen Link verbreitet hat, über seine ID. Und welche Absicht er hatte, indem Fall über den `Dienst` Whatsapp sollte es geteilt werden auf einem Android `Gerät`.
 
 # Hinweise
 
-Falls das Programm ungültige Eingabe, oder es Netzwerkverbindungsprobleme geben sollte, wird dieses Programm nichts ausfüllen.
+Falls das Programm ungültige Eingabe erkennt, oder es Netzwerkverbindungsprobleme geben sollte, wird dieses Programm nichts ausfüllen.
 Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stammen, da iOS aufgrund seiner Sicherheit, viele dieser Dinge verhindert.
 
-Das Programm bemüht sich stehts, alle Informationen, wie möglich abzurufen. Erwarten Sie aber bitte nicht, dass das Programm zu jeder Zeit Informationen extrahiert. Der Inhalt basiert ganz allein auf TikTok selbst.
+Das Programm bemüht sich stehts, alle Informationen, wie möglich abzurufen. Erwarten Sie aber bitte nicht, dass das Programm zu jeder Zeit Informationen  bereithalten kann. Der Inhalt ist abhängig davon, wie viel TikTok zur Verfügung stellt.
+
 Es ist jedoch sicherlich nicht schlecht, seinen Link zu überprüfen, bevor man ihn weiterschickt.
 
-Die URL endet oft mit `?k=1` am besten das entfernen um Lesefehler zu vermeiden.
 <br>
 
 Dieses Programm ist derzeit noch in Entwicklung, es ist lange noch nicht perfekt. Falls Sie einen Fehler gefunden haben, melden Sie es hier bitte, um das Programm zu verbessern. 
