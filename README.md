@@ -1,8 +1,11 @@
 # tikurl
 
+Extrem Schneller URL-TikTok-Information-Abrufer, welcher selbst bei langsamen Verbindungen kein Unterschied darstellt. 
+
 Kennt ihr diese `https://vm.tiktok.com/?????????/` Links, man weiß gar nicht, womit es sich auf sich hat ... 
 
 In diesem Programm werden wir den Link etwas genauer untersuchen. Hier ist ein Screenshot davon: 
+
 
 <img width="885" alt="Bildschirmfoto 2022-05-29 um 09 32 42" src="https://user-images.githubusercontent.com/70098046/170857355-c5930a28-5c82-4c9d-9bf1-37d2d754b52f.png">
 
@@ -45,6 +48,8 @@ osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/cur
 # Hinweise
 
 TestLink (aus Screenshot) `tikurl https://vm.tiktok.com/ZMLET7HMr/`
+
+Diese Links, erscheinen nur dann, wenn man aber auch nur dann, über die TikTok App, sobald man das Video teilen möchte.
 
 Falls das Programm ungültige Eingabe erkennt, oder es Netzwerkverbindungsprobleme geben sollte, wird dieses Programm nichts ausfüllen.
 Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stammen, da iOS aufgrund seiner Sicherheit, viele dieser Dinge verhindert.
