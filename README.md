@@ -44,7 +44,7 @@ osascript -e 'do shell script "sudo mkdir -p /usr/local/bin && sudo /usr/bin/cur
 
 # Hinweise
 
-TestLink (aus Screenshot) `tikurl httos://vm.tiktok.com/ZMLET7HMr/
+TestLink (aus Screenshot) `tikurl httos://vm.tiktok.com/ZMLET7HMr/`
 
 Falls das Programm ungültige Eingabe erkennt, oder es Netzwerkverbindungsprobleme geben sollte, wird dieses Programm nichts ausfüllen.
 Das Programm funktioniert am besten, wenn die Links von Android-Besitzern stammen, da iOS aufgrund seiner Sicherheit, viele dieser Dinge verhindert.
