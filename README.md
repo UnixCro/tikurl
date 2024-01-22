@@ -9,7 +9,7 @@ Kennt ihr diese `https://vm.tiktok.com/?????????/` Links, man weiß gar nicht, w
 In diesem Programm werden wir den Link etwas genauer untersuchen. Hier ist ein Screenshot davon: 
 
 
-<img width="885" alt="Bildschirmfoto 2022-05-29 um 09 32 42" src="https://user-images.githubusercontent.com/70098046/170857355-c5930a28-5c82-4c9d-9bf1-37d2d754b52f.png">
+
 
 In dem Bild sehen wir Informationen über den `Autor und dessen ID` . Wir sehen sogar, welche `Sprache` er verwendet. 
 Das schlimmste jedoch, wir können sogar sehen, `wer` diesen Link verbreitet hat, über seine ID. Und welche Absicht er hatte, indem Fall über den `Dienst` Whatsapp sollte es geteilt werden auf einem Android `Gerät`.
